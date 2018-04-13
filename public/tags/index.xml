@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>/tags/</link>
+    <link>https://analytics-ufcg.github.io/empenhados/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://analytics-ufcg.github.io/empenhados/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Análise De Dados</title>
-      <link>/tags/an%C3%A1lise-de-dados/</link>
+      <link>https://analytics-ufcg.github.io/empenhados/tags/an%C3%A1lise-de-dados/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/an%C3%A1lise-de-dados/</guid>
+      <guid>https://analytics-ufcg.github.io/empenhados/tags/an%C3%A1lise-de-dados/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computação</title>
-      <link>/tags/computa%C3%A7%C3%A3o/</link>
+      <link>https://analytics-ufcg.github.io/empenhados/tags/computa%C3%A7%C3%A3o/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/computa%C3%A7%C3%A3o/</guid>
+      <guid>https://analytics-ufcg.github.io/empenhados/tags/computa%C3%A7%C3%A3o/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://analytics-ufcg.github.io/empenhados/tags/r/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://analytics-ufcg.github.io/empenhados/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ufcg</title>
-      <link>/tags/ufcg/</link>
+      <link>https://analytics-ufcg.github.io/empenhados/tags/ufcg/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ufcg/</guid>
+      <guid>https://analytics-ufcg.github.io/empenhados/tags/ufcg/</guid>
       <description></description>
     </item>
     

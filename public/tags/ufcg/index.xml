@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ufcg on </title>
-    <link>/tags/ufcg/</link>
+    <link>https://analytics-ufcg.github.io/empenhados/tags/ufcg/</link>
     <description>Recent content in Ufcg on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/ufcg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://analytics-ufcg.github.io/empenhados/tags/ufcg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Análise exploratória - Séries Originais Netflix</title>
-      <link>/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/</link>
+      <link>https://analytics-ufcg.github.io/empenhados/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/</guid>
+      <guid>https://analytics-ufcg.github.io/empenhados/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/</guid>
       <description>Conjunto de dados utilizado Diante do conjunto de dados disponível para análise aqui optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, séries, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon.
 library(tidyverse) theme_set(theme_bw())  series_imdb &amp;lt;- read_csv(&amp;quot;series_from_imdb.csv&amp;quot;)  series_netflix &amp;lt;- series_imdb %&amp;gt;% filter(series_name %in% c(&amp;quot;13 Reasons Why&amp;quot;, &amp;quot;Daredevil&amp;quot;, &amp;quot;House of Cards&amp;quot;, &amp;quot;Narcos&amp;quot;, &amp;quot;Sense8&amp;quot;, &amp;quot;Stranger Things&amp;quot;)) %&amp;gt;% mutate(series_name = factor(series_name))  Portanto as séries escolhidas para a análise são:</description>
     </item>
