@@ -38,7 +38,7 @@ publishDir = "docs"
   singleViewStyle = "casper"
 
 [permalinks]
-  post = "/:slug/"
+  post = "/:year/:month/:slug/"
 
 [[menu.main]]
   name = "Home"

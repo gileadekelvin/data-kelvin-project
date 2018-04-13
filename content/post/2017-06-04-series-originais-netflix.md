@@ -1,5 +1,6 @@
 +++
 title = "Análise exploratória - Séries Originais Netflix"
+slug = "series-netflix"
 description = "Análise exploratória a partir dos dados do IMDB das séries originais Netflix. Quais são as séries mais bem avaliadas? Quais os episódios com notas mais altas? Essas são algumas perguntas que motivaram este post."
 tags = [
     "Análise de dados",
