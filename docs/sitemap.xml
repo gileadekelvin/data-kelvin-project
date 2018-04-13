@@ -3,64 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/data-kelvin-project/about/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/about/</loc>
     <lastmod>2018-04-13T21:48:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/data-kelvin-project/2017/06/series-netflix/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix/</loc>
     <lastmod>2017-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/data-kelvin-project/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/</loc>
+    <lastmod>2017-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/computa%C3%A7%C3%A3o/</loc>
+    <lastmod>2017-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/</loc>
     <lastmod>2018-04-13T21:48:51-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/data-kelvin-project/tags/an%C3%A1lise-de-dados/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/post/</loc>
     <lastmod>2017-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/data-kelvin-project/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/data-kelvin-project/tags/computa%C3%A7%C3%A3o/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/r/</loc>
     <lastmod>2017-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/data-kelvin-project/post/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/categories/r/</loc>
     <lastmod>2017-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/data-kelvin-project/tags/r/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/</loc>
     <lastmod>2017-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/data-kelvin-project/categories/r/</loc>
-    <lastmod>2017-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/data-kelvin-project/tags/</loc>
-    <lastmod>2017-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/data-kelvin-project/tags/ufcg/</loc>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/ufcg/</loc>
     <lastmod>2017-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

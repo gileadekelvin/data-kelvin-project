@@ -1,5 +1,5 @@
 baseurl         = "https://gileadekelvin.github.io/data-kelvin-project/"
-theme           = "casper-two"
+theme           = "casper-two-edited"
 languageCode    = "pt-br"
 disqusShortname = ""
 paginate        = 6
@@ -9,7 +9,7 @@ publishDir = "docs"
 [params]
   title       = "Data Kelvin Project"
   subtitle    = "Data Kelvin Project - Blog pessoal"
-  
+
   cover       = "defimg/blog-cover.jpg"
   description = "Este é um blog desenvolvido e atualizado por Gileade Kelvin com o objetivo de divulgar análises e pesquisas interessantes."
   metaDescription = ""
@@ -23,7 +23,7 @@ publishDir = "docs"
 
   logo = "defimg/logo-dkp.png"
   orgName = "Gileade Kelvin"
-  orgWebsite = "https://gileadekelvin.github.io/"
+  orgWebsite = "https://gileadekelvin.github.io/data-kelvin-project"
   orgDescription = "Blog Pessoal"
 
   author = "Gileade Kelvin"
@@ -54,7 +54,7 @@ publishDir = "docs"
   name = "Tags"
   url = "/tags/"
   weight = 100
-  
+
 [[menu.main]]
   name = "Categorias"
   url = "/categories/"

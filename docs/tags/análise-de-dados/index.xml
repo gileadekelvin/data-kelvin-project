@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Análise De Dados on </title>
-    <link>/data-kelvin-project/tags/an%C3%A1lise-de-dados/</link>
-    <description>Recent content in Análise De Dados on </description>
+    <title>Análise De Dados on Data Kelvin Project</title>
+    <link>https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/</link>
+    <description>Recent content in Análise De Dados on Data Kelvin Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/data-kelvin-project/tags/an%C3%A1lise-de-dados/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Análise exploratória - Séries Originais Netflix</title>
-      <link>/data-kelvin-project/2017/06/series-netflix/</link>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/data-kelvin-project/2017/06/series-netflix/</guid>
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix/</guid>
       <description>Conjunto de dados utilizado Análise realizada em 04/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
 Diante do conjunto de dados disponível para análise aqui optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, séries, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon.</description>
     </item>
