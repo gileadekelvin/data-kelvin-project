@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análise De Dados 1 Ufcg on </title>
+    <link>/tags/an%C3%A1lise-de-dados-1-ufcg/</link>
+    <description>Recent content in Análise De Dados 1 Ufcg on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/an%C3%A1lise-de-dados-1-ufcg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Análise exploratória - Séries Originais Netflix</title>
+      <link>/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/</link>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/</guid>
+      <description>+++ title = &amp;ldquo;Análise exploratória - Séries Originais Netflix&amp;rdquo; description = &amp;ldquo;This is a description. Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic.&amp;rdquo; tags = [ &amp;ldquo;Análise de dados&amp;rdquo;, &amp;ldquo;UFCG&amp;rdquo;, &amp;ldquo;Computação&amp;rdquo;, &amp;ldquo;R&amp;rdquo;, ] date = &amp;ldquo;2017-06-04&amp;rdquo; categories = [ &amp;ldquo;R&amp;rdquo;, ] nomenu = &amp;ldquo;main&amp;rdquo; image= &amp;ldquo;defimg/1.jpg&amp;rdquo; +++
+Conjunto de dados utilizado Diante do conjunto de dados disponível para análise aqui optei por escolher as séries originais da Netflix.</description>
+    </item>
+    
+  </channel>
+</rss>

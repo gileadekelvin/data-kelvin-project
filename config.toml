@@ -1,0 +1,60 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Data Kelvin Project"
+  subtitle    = "Blog pessoal com descobertas interessantes"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Este 'um blog desenvolvido e atualizado por Gileade Kelvin com o objetivo de divulgar análises e pesquisas interessantes."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "gileadekelvin"
+  fbName = "gileadekelvin"
+  githubName = "gileadekelvin"
+
+  logo = "hugo-logo.png"
+  orgName = "Gileade Kelvin"
+  orgWebsite = "https://gileadekelvin.github.io/"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Gileade Kelvin"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Paraíba, Brasil"
+  authorWebsite = "https://gileadekelvin.github.io/"
+  authorDescription = "Estudante de Ciência da Computação na UFCG e estagiário do Ministério Público da Paraíbva desde 2017. Trabalho com Data Science no Laboratório Analytics - UFCG."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "R"
+  url = "/tags/R/"
+  weight = 100
+
+[[menu.main]]
+  name = "R"
+  url = "/categories/R/"
+  weight = 99
+
+[[menu.main]]
+  name = "About"
+  url = "https://gileadekelvin.github.io/"
+  weight = 95
