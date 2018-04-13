@@ -1,6 +1,6 @@
 +++
 title = "Análise exploratória - Séries Originais Netflix"
-description = "This is a description. Hugo uses the **excellent** go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic."
+description = "Análise exploratória a partir dos dados do IMDB das séries originais Netflix. Quais são as séries mais bem avaliadas? Quais os episódios com notas mais altas? Essas são algumas perguntas que motivaram este post."
 tags = [
     "Análise de dados",
     "UFCG",
@@ -12,10 +12,12 @@ categories = [
     "R",
 ]
 nomenu = "main"
-image= "defimg/4.jpg"
+image= "defimg/series-netflix.jpg"
 +++
 
 ## Conjunto de dados utilizado
+
+**Análise realizada em 04/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)**
 
 Diante do conjunto de dados disponível para análise [aqui](https://github.com/nazareno/imdb-series/raw/master/data/series_from_imdb.csv) optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, **séries**, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon. 
 

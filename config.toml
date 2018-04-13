@@ -1,6 +1,6 @@
 baseurl         = "https://gileadekelvin.github.io/data-kelvin-project/"
 theme           = "casper-two"
-languageCode    = "en-US"
+languageCode    = "pt-br"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
@@ -8,10 +8,10 @@ publishDir = "docs"
 
 [params]
   title       = "Data Kelvin Project"
-  subtitle    = "Blog pessoal com descobertas interessantes"
+  subtitle    = "Data Kelvin Project - Blog pessoal"
   
-  cover       = "img/blog-cover.jpg"
-  description = "Este 'um blog desenvolvido e atualizado por Gileade Kelvin com o objetivo de divulgar análises e pesquisas interessantes."
+  cover       = "defimg/blog-cover.jpg"
+  description = "Este é um blog desenvolvido e atualizado por Gileade Kelvin com o objetivo de divulgar análises e pesquisas interessantes."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
@@ -21,13 +21,13 @@ publishDir = "docs"
   fbName = "gileadekelvin"
   githubName = "gileadekelvin"
 
-  logo = "hugo-logo.png"
+  logo = "defimg/logo-dkp.png"
   orgName = "Gileade Kelvin"
   orgWebsite = "https://gileadekelvin.github.io/"
-  orgDescription = "Here is a description placeholder for your org"
+  orgDescription = "Blog Pessoal"
 
   author = "Gileade Kelvin"
-  authorAvatar = "img/ghost-icon.png"
+  authorAvatar = "defimg/perfil.png"
   authorLocation = "Paraíba, Brasil"
   authorWebsite = "https://gileadekelvin.github.io/"
   authorDescription = "Estudante de Ciência da Computação na UFCG e estagiário do Ministério Público da Paraíbva desde 2017. Trabalho com Data Science no Laboratório Analytics - UFCG."
@@ -51,11 +51,21 @@ publishDir = "docs"
   weight = 100
 
 [[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 100
+  
+[[menu.main]]
+  name = "Categorias"
+  url = "/categories/"
+  weight = 99
+
+[[menu.main]]
   name = "R"
   url = "/categories/R/"
   weight = 99
 
 [[menu.main]]
-  name = "About"
-  url = "https://gileadekelvin.github.io/"
+  name = "Sobre"
+  url = "/about"
   weight = 95

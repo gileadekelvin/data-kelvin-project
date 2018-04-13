@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" />
+<html lang="pt-br" />
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -12,16 +12,16 @@
     <link rel="shortcut icon" href="https://gileadekelvin.github.io/data-kelvin-project/favicon.ico" />
     <link rel="canonical" href="https://gileadekelvin.github.io/data-kelvin-project/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/" />
 
-     <meta name="description" content="This is a description. Hugo uses the **excellent** go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic." /> 
+     <meta name="description" content="Análise exploratória a partir dos dados do IMDB das séries originais Netflix. Quais são as séries mais bem avaliadas? Quais os episódios com notas mais altas? Essas são algumas perguntas que motivaram este post." /> 
 
      
     
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://gileadekelvin.github.io/data-kelvin-project/defimg/4.jpg"/>
+    <meta name="twitter:image" content="https://gileadekelvin.github.io/data-kelvin-project/defimg/series-netflix.jpg"/>
     
  
     <meta name="twitter:title" content="Análise exploratória - Séries Originais Netflix"/>
-    <meta name="twitter:description" content="This is a description. Hugo uses the **excellent** go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic."/>
+    <meta name="twitter:description" content="Análise exploratória a partir dos dados do IMDB das séries originais Netflix. Quais são as séries mais bem avaliadas? Quais os episódios com notas mais altas? Essas são algumas perguntas que motivaram este post."/>
     <meta name="twitter:url" content="https://gileadekelvin.github.io/data-kelvin-project/an%C3%A1lise-explorat%C3%B3ria---s%C3%A9ries-originais-netflix/" />
     <meta name="twitter:site" content="@gileadekelvin"/>
 
@@ -31,12 +31,12 @@
     <meta property="article:publisher" content="https://www.facebook.com/gileadekelvin" />
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="This is a description. Hugo uses the **excellent** go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic." />
+    <meta property="og:description" content="Análise exploratória a partir dos dados do IMDB das séries originais Netflix. Quais são as séries mais bem avaliadas? Quais os episódios com notas mais altas? Essas são algumas perguntas que motivaram este post." />
 
     <meta property="article:published_time" content="2017-06-04T00:00:00Z" />
     <meta property="article:tag" content="Análise de dados" /><meta property="article:tag" content="UFCG" /><meta property="article:tag" content="Computação" /><meta property="article:tag" content="R" />
 
-    <meta property="og:image" content="https://gileadekelvin.github.io/data-kelvin-project/defimg/4.jpg"/>
+    <meta property="og:image" content="https://gileadekelvin.github.io/data-kelvin-project/defimg/series-netflix.jpg"/>
 
 
     <meta name="generator" content="Hugo 0.38.2" />
@@ -59,7 +59,7 @@
   <div class="inner">
     <nav class="site-nav">
       <div class="site-nav-left">
-        <a class="site-nav-logo" href="#"><img src="https://gileadekelvin.github.io/data-kelvin-project/hugo-logo.png" alt="Data Kelvin Project" /></a>
+        <a class="site-nav-logo" href="#"><img src="https://gileadekelvin.github.io/data-kelvin-project/defimg/logo-dkp.png" alt="Data Kelvin Project" /></a>
 
         <ul class="nav" role="menu">
         
@@ -74,7 +74,15 @@
             </li>
         
             <li class="" role="menuitem">
-              <a href="https://gileadekelvin.github.io/">About</a>
+              <a href="/data-kelvin-project/tags/">Tags</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/data-kelvin-project/categories/">Categorias</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/data-kelvin-project/about">Sobre</a>
             </li>
         
       </ul></div>
@@ -111,7 +119,7 @@
         <h1 class="post-full-title">Análise exploratória - Séries Originais Netflix</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://gileadekelvin.github.io/data-kelvin-project/defimg/4.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://gileadekelvin.github.io/data-kelvin-project/defimg/series-netflix.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -119,6 +127,8 @@
         
 
 <h2 id="conjunto-de-dados-utilizado">Conjunto de dados utilizado</h2>
+
+<p><strong>Análise realizada em 04/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)</strong></p>
 
 <p>Diante do conjunto de dados disponível para análise <a href="https://github.com/nazareno/imdb-series/raw/master/data/series_from_imdb.csv">aqui</a> optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, <strong>séries</strong>, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon.</p>
 
@@ -408,7 +418,7 @@ Em Sense8 <code>2.1</code>, em Daredevil <code>1</code> e em Stranger Things <co
 
     <footer class="post-full-footer">
       <section class="author-card">
-        <img class="author-profile-image" src="https://gileadekelvin.github.io/data-kelvin-project/img/ghost-icon.png" alt="Author" />
+        <img class="author-profile-image" src="https://gileadekelvin.github.io/data-kelvin-project/defimg/perfil.png" alt="Author" />
         <section class="author-card-content">
             <h4 class="author-card-name"><a href="https://gileadekelvin.github.io/">Gileade Kelvin</a></h4>
                 <p>Estudante de Ciência da Computação na UFCG e estagiário do Ministério Público da Paraíbva desde 2017. Trabalho com Data Science no Laboratório Analytics - UFCG.</p>
@@ -438,7 +448,7 @@ Em Sense8 <code>2.1</code>, em Daredevil <code>1</code> e em Stranger Things <co
 <div class="floating-header">
   <div class="floating-header-logo">
     <a href="https://gileadekelvin.github.io/">
-      <img src="https://gileadekelvin.github.io/data-kelvin-project/hugo-logo.png" alt="" />
+      <img src="https://gileadekelvin.github.io/data-kelvin-project/defimg/logo-dkp.png" alt="" />
       <span></span>
     </a>
   </div>
