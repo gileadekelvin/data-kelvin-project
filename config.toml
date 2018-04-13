@@ -4,11 +4,12 @@ languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
+publishDir = "docs"
 
 [params]
   title       = "Data Kelvin Project"
   subtitle    = "Blog pessoal com descobertas interessantes"
-
+  
   cover       = "img/blog-cover.jpg"
   description = "Este 'um blog desenvolvido e atualizado por Gileade Kelvin com o objetivo de divulgar análises e pesquisas interessantes."
   metaDescription = ""
