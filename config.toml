@@ -13,7 +13,7 @@ publishDir = "docs"
   cover       = "defimg/blog-cover.jpg"
   description = "Este é um blog desenvolvido e atualizado por Gileade Kelvin com o objetivo de divulgar análises e pesquisas interessantes."
   metaDescription = ""
-  googleAnalytics = ""
+  googleAnalytics = "UA-87705780-2"
   customCSS = []
   RSSLink = ""
 
