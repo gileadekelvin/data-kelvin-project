@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Data Kelvin Project</title>
+    <title>Tags on </title>
     <link>https://gileadekelvin.github.io/data-kelvin-project/tags/</link>
-    <description>Recent content in Tags on Data Kelvin Project</description>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -21,11 +21,11 @@
     </item>
     
     <item>
-      <title>Computação</title>
-      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/computa%C3%A7%C3%A3o/</link>
+      <title>Data Science</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/computa%C3%A7%C3%A3o/</guid>
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/</guid>
       <description></description>
     </item>
     
@@ -35,15 +35,6 @@
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ufcg</title>
-      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/ufcg/</link>
-      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/ufcg/</guid>
       <description></description>
     </item>
     

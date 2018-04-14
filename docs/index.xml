@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Kelvin Project</title>
+    <title></title>
     <link>https://gileadekelvin.github.io/data-kelvin-project/</link>
-    <description>Recent content on Data Kelvin Project</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 13 Apr 2018 21:48:51 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Sobre</title>
-      <link>https://gileadekelvin.github.io/data-kelvin-project/about/</link>
-      <pubDate>Fri, 13 Apr 2018 21:48:51 -0700</pubDate>
-      
-      <guid>https://gileadekelvin.github.io/data-kelvin-project/about/</guid>
-      <description>Olá, meu nome é Gileade Kelvin
-Sou estudante de Ciência da Computação na Universidade Federal de Campina Grande - UFCG. Esse blog tem o objetivo de mostrar as coisas legais que ando fazendo no meu curso, principalmente no que se diz respeito a análise de dados. Atualmente sou estagiário do Ministério Público da Paraíba e nesse estágio descobri o quanto gosto de ciência de dados e o quanto essa área é fascinante.</description>
-    </item>
     
     <item>
       <title>Análise exploratória - Séries Originais Netflix</title>
