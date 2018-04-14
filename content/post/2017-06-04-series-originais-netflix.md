@@ -16,9 +16,9 @@ image= "defimg/series-netflix.jpg"
 comments = "TRUE"
 +++
 
-## Conjunto de dados utilizado
-
 **Análise realizada em 04/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)**
+
+## Conjunto de dados utilizado
 
 Diante do conjunto de dados disponível para análise [aqui](https://github.com/nazareno/imdb-series/raw/master/data/series_from_imdb.csv) optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, **séries**, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon. 
 

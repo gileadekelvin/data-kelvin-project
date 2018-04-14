@@ -6,10 +6,20 @@
     <description>Recent content in R on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 13 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uma visão interativa sobre as Séries Originais Netflix</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix-interativo/</link>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix-interativo/</guid>
+      <description>Análise realizada em 20/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
+Como a avaliação das séries se comporta ao longo das temporadas? Nós selecionamos seis séries Originais Netflix e com base no ratings (notas) atribuídas aos episódios de cada série traçamos um gráfico de linha interativa que mostra como as notas dos episódios se comportam à medida que a série e suas temporadas vão avançando.</description>
+    </item>
     
     <item>
       <title>Séries Originais Netflix - Melhores temporadas e mais</title>
@@ -27,8 +37,8 @@ Conjunto de dados utilizado Diante do conjunto de dados disponível para anális
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix/</guid>
-      <description>Conjunto de dados utilizado Análise realizada em 04/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
-Diante do conjunto de dados disponível para análise aqui optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, séries, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon.</description>
+      <description>Análise realizada em 04/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
+Conjunto de dados utilizado Diante do conjunto de dados disponível para análise aqui optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, séries, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon.</description>
     </item>
     
   </channel>

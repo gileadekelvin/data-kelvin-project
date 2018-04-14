@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Htmlwidgets on </title>
+    <link>https://gileadekelvin.github.io/data-kelvin-project/tags/htmlwidgets/</link>
+    <description>Recent content in Htmlwidgets on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 20 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/tags/htmlwidgets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uma visão interativa sobre as Séries Originais Netflix</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix-interativo/</link>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix-interativo/</guid>
+      <description>Análise realizada em 20/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
+Como a avaliação das séries se comporta ao longo das temporadas? Nós selecionamos seis séries Originais Netflix e com base no ratings (notas) atribuídas aos episódios de cada série traçamos um gráfico de linha interativa que mostra como as notas dos episódios se comportam à medida que a série e suas temporadas vão avançando.</description>
+    </item>
+    
+  </channel>
+</rss>
