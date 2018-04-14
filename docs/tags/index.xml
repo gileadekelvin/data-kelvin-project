@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>/data-kelvin-project/tags/</link>
+    <link>https://gileadekelvin.github.io/data-kelvin-project/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/data-kelvin-project/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Análise De Dados</title>
-      <link>/data-kelvin-project/tags/an%C3%A1lise-de-dados/</link>
-      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/data-kelvin-project/tags/an%C3%A1lise-de-dados/</guid>
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Science</title>
-      <link>/data-kelvin-project/tags/data-science/</link>
-      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/data-kelvin-project/tags/data-science/</guid>
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/data-kelvin-project/tags/r/</link>
-      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/r/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/data-kelvin-project/tags/r/</guid>
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/r/</guid>
       <description></description>
     </item>
     

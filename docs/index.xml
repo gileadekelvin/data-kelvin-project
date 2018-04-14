@@ -2,31 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>/data-kelvin-project/</link>
+    <link>https://gileadekelvin.github.io/data-kelvin-project/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Fri, 13 Apr 2018 21:48:51 -0700</lastBuildDate>
     
-	<atom:link href="/data-kelvin-project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sobre</title>
-      <link>/data-kelvin-project/about/</link>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/about/</link>
       <pubDate>Fri, 13 Apr 2018 21:48:51 -0700</pubDate>
       
-      <guid>/data-kelvin-project/about/</guid>
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/about/</guid>
       <description>Olá, meu nome é Gileade Kelvin
 Sou estudante de Ciência da Computação na Universidade Federal de Campina Grande - UFCG. Esse blog tem o objetivo de mostrar as coisas legais que ando fazendo no meu curso, principalmente no que se diz respeito a análise de dados. Atualmente sou estagiário do Ministério Público da Paraíba e nesse estágio descobri o quanto gosto de ciência de dados e o quanto essa área é fascinante.</description>
     </item>
     
     <item>
+      <title>Séries Originais Netflix - Melhores temporadas e mais</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/06/originais-netflix-temporadas/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/originais-netflix-temporadas/</guid>
+      <description>Análise realizada em 13/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
+Conjunto de dados utilizado Diante do conjunto de dados disponível para análise aqui optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, séries, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon.</description>
+    </item>
+    
+    <item>
       <title>Análise exploratória - Séries Originais Netflix</title>
-      <link>/data-kelvin-project/2017/06/series-netflix/</link>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/data-kelvin-project/2017/06/series-netflix/</guid>
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix/</guid>
       <description>Conjunto de dados utilizado Análise realizada em 04/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
 Diante do conjunto de dados disponível para análise aqui optei por escolher as séries originais da Netflix. Ou seja, as séries produzidas e disponibilizadas pela Netflix para todo o mundo. A fonte dos dados é o IMDB, um banco de dados online com informação sobre música, filmes, séries, cinema, jogos, programas e comerciais de TV, atualmente percente a Amazon.</description>
     </item>
