@@ -13,6 +13,7 @@ categories = [
 ]
 nomenu = "main"
 image= "defimg/series-netflix.jpg"
+comments = "TRUE"
 +++
 
 ## Conjunto de dados utilizado

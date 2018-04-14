@@ -1,7 +1,7 @@
 baseurl         = "https://gileadekelvin.github.io/data-kelvin-project/"
 theme           = "casper-two-edited"
 languageCode    = "pt-br"
-disqusShortname = ""
+disqusShortname = "data-kelvin-project"
 paginate        = 6
 #SectionPagesMenu = "main"
 publishDir = "docs"
