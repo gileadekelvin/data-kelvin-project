@@ -22,6 +22,16 @@ Sou estudante de Ciência da Computação na Universidade Federal de Campina Gra
     </item>
     
     <item>
+      <title>Minha Série é a melhor!</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/06/minha-serie-e-a-melhor/</link>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/minha-serie-e-a-melhor/</guid>
+      <description>No post de hoje, irei apresentar uma aplicação que desenvolvi utilizando o Shiny Dashboard. Minha Série é a melhor é uma plataforma que permite comparar mais de 500 séries de diversos gêneros e épocas de acordo com as notas dos episódios no IMDB. O código da aplicação pode ser encontrado aqui.
+Experimente você mesmo e tire print para mostrar a seus amigos que sua série favorita é melhor que a dele!</description>
+    </item>
+    
+    <item>
       <title>Uma visão interativa sobre as Séries Originais Netflix</title>
       <link>https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix-interativo/</link>
       <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
