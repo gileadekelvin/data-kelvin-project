@@ -2,21 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agrupamento on </title>
-    <link>https://gileadekelvin.github.io/data-kelvin-project/tags/agrupamento/</link>
+    <link>/data-kelvin-project/tags/agrupamento/</link>
     <description>Recent content in Agrupamento on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/tags/agrupamento/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/data-kelvin-project/tags/agrupamento/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Agrupamento de filmes - Mulheres no Cinema</title>
+      <link>/data-kelvin-project/2017/08/falas-femininas-cinema/</link>
+      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/data-kelvin-project/2017/08/falas-femininas-cinema/</guid>
+      <description>Sobre os dados Nesse relatório iremos trabalhar com os dados de filmes que contêm informações sobre a renda bruta do filme, falas de personagens por gênero e outras variáveis. Os dados estão disponíveis aqui.
+dados &amp;lt;- read.csv(&amp;quot;meta_data7.csv&amp;quot;, encoding = &amp;quot;latin1&amp;quot;) characters &amp;lt;- read.csv(&amp;quot;character_list5.csv&amp;quot;, encoding = &amp;quot;latin1&amp;quot;)  A princípio utilizaremos as duas bases de dados disponíveis. A primeira delas contém informações sobre os filmes que iremos estudar. As principais são o ano, a renda bruta na bilheteria (gross) além do título do filme.</description>
+    </item>
+    
+    <item>
       <title>Agrupamento de filmes do Christian Bale</title>
-      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/</link>
+      <link>/data-kelvin-project/2017/07/filmes-bale-agrupamento/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/</guid>
+      <guid>/data-kelvin-project/2017/07/filmes-bale-agrupamento/</guid>
       <description>Conjunto de dados &amp;ldquo;I&amp;rsquo;m Batman!&amp;rdquo;
 Na análise de hoje buscaremos identificar quais os grupos de filmes do ator Christian Bale. Os grupos serão definidos quanto filmes de um mesmo grupo tem características semelhantes entre si mas que diferem de outros grupos.
 Iremos utilizar os dados do Rotten Tomatoes, site conhecido mundialmente por seus reviews de filmes e pelo tomatômetro que é uma medida de 0 a 100 do nível de frescor ou podridão do tomate/filme.</description>
