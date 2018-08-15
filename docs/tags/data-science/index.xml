@@ -6,10 +6,21 @@
     <description>Recent content in Data Science on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 20 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agrupamento de filmes do Christian Bale</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/</guid>
+      <description>Conjunto de dados &amp;ldquo;I&amp;rsquo;m Batman!&amp;rdquo;
+Na análise de hoje buscaremos identificar quais os grupos de filmes do ator Christian Bale. Os grupos serão definidos quanto filmes de um mesmo grupo tem características semelhantes entre si mas que diferem de outros grupos.
+Iremos utilizar os dados do Rotten Tomatoes, site conhecido mundialmente por seus reviews de filmes e pelo tomatômetro que é uma medida de 0 a 100 do nível de frescor ou podridão do tomate/filme.</description>
+    </item>
     
     <item>
       <title>Minha Série é a melhor!</title>
@@ -17,8 +28,9 @@
       <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gileadekelvin.github.io/data-kelvin-project/2017/06/minha-serie-e-a-melhor/</guid>
-      <description>No post de hoje, irei apresentar uma aplicação que desenvolvi utilizando o Shiny Dashboard. Minha Série é a melhor é uma plataforma que permite comparar mais de 500 séries de diversos gêneros e épocas de acordo com as notas dos episódios no IMDB. O código da aplicação pode ser encontrado aqui.
-Experimente você mesmo e tire print para mostrar a seus amigos que sua série favorita é melhor que a dele!</description>
+      <description>Análise realizada em 20/06/2017 para a disciplina de Análise de Dados 1 (Curso de Computação - UFCG)
+Comparando séries 
+No post de hoje, irei apresentar uma aplicação que desenvolvi utilizando o Shiny Dashboard. Minha Série é a melhor é uma plataforma que permite comparar mais de 500 séries de diversos gêneros e épocas de acordo com as notas dos episódios no IMDB. O código da aplicação pode ser encontrado aqui.</description>
     </item>
     
     <item>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="pt-br" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Agrupamento de filmes do Christian Bale &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://gileadekelvin.github.io/data-kelvin-project/favicon.ico" />
+    <link rel="canonical" href="https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/" />
+
+     <meta name="description" content="O que será que os filmes do Christian Bale têm em comum? Essas e outras perguntas são discutidas nesse post." /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="https://gileadekelvin.github.io/data-kelvin-project/defimg/christian-bale.jpg"/>
+    
+ 
+    <meta name="twitter:title" content="Agrupamento de filmes do Christian Bale"/>
+    <meta name="twitter:description" content="O que será que os filmes do Christian Bale têm em comum? Essas e outras perguntas são discutidas nesse post."/>
+    <meta name="twitter:url" content="https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/" />
+    <meta name="twitter:site" content="@gileadekelvin"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Agrupamento de filmes do Christian Bale &middot; Data Kelvin Project" />
+    <meta property="og:url" content="https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/" />
+    <meta property="article:publisher" content="https://www.facebook.com/gileadekelvin" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="O que será que os filmes do Christian Bale têm em comum? Essas e outras perguntas são discutidas nesse post." />
+
+    <meta property="article:published_time" content="2017-07-27T00:00:00Z" />
+    <meta property="article:tag" content="Análise de dados" /><meta property="article:tag" content="R" /><meta property="article:tag" content="Data science" /><meta property="article:tag" content="htmlwidgets" /><meta property="article:tag" content="Kmeans" /><meta property="article:tag" content="Agrupamento" />
+
+    <meta property="og:image" content="https://gileadekelvin.github.io/data-kelvin-project/defimg/christian-bale.jpg"/>
+
+
+    <meta name="generator" content="Hugo 0.38.2" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://gileadekelvin.github.io/data-kelvin-project/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://gileadekelvin.github.io/data-kelvin-project/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+        <a class="site-nav-logo" href="#"><img src="https://gileadekelvin.github.io/data-kelvin-project/defimg/logo-dkp.png" alt="Data Kelvin Project" /></a>
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="/data-kelvin-project/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/data-kelvin-project/tags/r/">R</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/data-kelvin-project/tags/">Tags</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/data-kelvin-project/categories/">Categorias</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/data-kelvin-project/about">Sobre</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    <a class="social-link" href="https://github.com/gileadekelvin" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/gileade-kelvin" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+                    
+                    <a class="social-link social-link-fb" href="https://www.facebook.com/gileadekelvin" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a>
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/gileadekelvin" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2017-07-27">27 July 2017</time>
+                <span class="date-divider">/</span> <a href="https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/">#Análise de dados</a>&nbsp;<a href="https://gileadekelvin.github.io/data-kelvin-project/tags/r/">#R</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">Agrupamento de filmes do Christian Bale</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(https://gileadekelvin.github.io/data-kelvin-project/defimg/christian-bale.jpg)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        
+
+<h2 id="conjunto-de-dados">Conjunto de dados</h2>
+
+<p>&ldquo;I&rsquo;m Batman!&rdquo;</p>
+
+<p>Na análise de hoje buscaremos identificar quais os grupos de filmes do ator <strong>Christian Bale</strong>. Os grupos serão definidos quanto filmes de um mesmo grupo tem características semelhantes entre si mas que diferem de outros grupos.</p>
+
+<p>Iremos utilizar os dados do Rotten Tomatoes, site conhecido mundialmente por seus reviews de filmes e pelo <strong>tomatômetro</strong> que é uma medida de 0 a 100 do nível de frescor ou podridão do tomate/filme. Foram coletados 20 filmes com informações sobre BOX OFFICE e RATING(Tomatômetro).</p>
+
+<pre><code class="language-r">from_page &lt;- read_html(&quot;https://www.rottentomatoes.com/celebrity/christian_bale/&quot;) %&gt;% 
+    html_node(&quot;#filmographyTbl&quot;) %&gt;% # A sintaxe da expressão é de um seletor à lá JQuery: https://rdrr.io/cran/rvest/man/htmhttps://www.rottentomatoes.com/celebrity/denzel_washington/l_nodes.html 
+    html_table(fill=TRUE) %&gt;% # Faz parse
+    as.tibble()
+
+filmes = from_page %&gt;% 
+    filter(RATING != &quot;No Score Yet&quot;, 
+           `BOX OFFICE` != &quot;—&quot;, 
+           CREDIT != &quot;Executive Producer&quot;) %&gt;%
+    mutate(RATING = as.numeric(gsub(&quot;%&quot;, &quot;&quot;, RATING)), 
+           `BOX OFFICE` = as.numeric(gsub(&quot;[$|M]&quot;, &quot;&quot;, `BOX OFFICE`))) %&gt;% 
+    filter(`BOX OFFICE` &gt;= 1) # Tem dois filmes que não parecem ter sido lançados no mundo todo
+</code></pre>
+
+<h2 id="variáveis">Variáveis</h2>
+
+<p>Iremos considerar duas variáveis para o agrupamento: <strong>BOX OFFICE</strong> que é a bilheteria nos EUA que o filme arrecadou, <strong>RATING</strong> que é o nível de frescor do tomate, 0 o tomate/filme está podre enquanto 100 o tomate/filme está fresco.</p>
+
+<pre><code class="language-r">p1 &lt;- filmes %&gt;%
+  ggplot(aes(x = RATING)) +
+  geom_histogram(binwidth = 5, fill = &quot;#E65100&quot;) +
+  labs(x = &quot;Rating/Tomatômetro&quot;, y = &quot;Número de filmes&quot;)
+
+p2 &lt;- filmes %&gt;%
+  ggplot(aes(x = `BOX OFFICE`)) +
+  geom_histogram(binwidth = 50, fill = &quot;#E65100&quot;) +
+  labs(x = &quot;Box Office em Milhões de dólares&quot;, y = &quot;Número de filmes&quot;)
+
+grid.arrange(p1, p2, ncol=2)
+</code></pre>
+
+<p><img src="unnamed-chunk-3-1.png" style="display: block; margin: auto; max-width: 100%;" /></p>
+
+<p>Na primeira visualização vemos a maioria dos filmes de Bale tem bons indíces no tomatômetro embora ainda existam alguns que não são tão bons assim. Na segunda visualização percebemos que a maioria dos filmes encontra-se entre 0 e 200 milhões de dólares no Box Office e apenas dois filmes ultrapassam os 400 milhões de dólares.</p>
+
+<pre><code class="language-r">filmes %&gt;%
+    hchart(&quot;scatter&quot;, hcaes(x = RATING, y = `BOX OFFICE`)) %&gt;%
+    hc_add_theme(hc_theme_smpl()) %&gt;% 
+    hc_title(text = &quot;Rating vs Box Office&quot;, align = &quot;center&quot;) %&gt;%
+    hc_xAxis(title = list(text = &quot;Rating (tomatômetro)&quot;)) %&gt;%
+    hc_yAxis(title = list(text = &quot;Box Office em Milhões de dólares&quot;)) %&gt;%
+    hc_tooltip(pointFormat = &quot;{point.TITLE} &lt;br&gt; Rating: {point.x} &lt;br&gt; Box Office: {point.y}&quot;)
+</code></pre>
+
+<iframe width="100%" height="500px" src="bale_agrupamento.html" frameborder="0" allowfullscreen></iframe>
+
+<p>Acima podemos observar que não existem uma correlaçao linear clara entre as duas variáveis. Ainda é possível identificar <em>outliers</em> como The Dark Knight e Dark Knight Rises, maiores Box Offices do ator, e Captain Corelli&rsquo;s Mandolin e Terminator Salvation, menores Ratings do ator. Olhando para esse gráfico de dispersão é possível imaginar que alguns grupos poderão ser formados, por exemplo, existe um grupo que arrecadou &ldquo;pouco&rdquo; e tem um baixo índice no tomatômetro. É possível também visualizar um grupo de grandes sucessos em termos de crítica.</p>
+
+<h2 id="agrupamento">Agrupamento</h2>
+
+<p>Agora que conhecemos as variáveis e quais são alguns filmes que Christian Bale participou vamos agrupá-los da melhor forma de modo que que filmes parecidos entre si fiquem em um mesmo grupo e que esses grupos sejam diferentes entre si.</p>
+
+<p>A técnica para o agrupamento usada é o agrupamento hierárquico, no qual na variável BOX OFFICE foi aplicada o log de 10, uma vez não estamos interessados nas diferenças absolutas das rendas dos filmes. Além disso, as duas variáveis foram padronizadas para uma mesma escala e com a mesma unidade (desvios-padrão). O método de distância utilizado foi o euclidean e o de agrupamento foi o ward.D.</p>
+
+<pre><code class="language-r">agrupamento_h_2d = filmes %&gt;% 
+    column_to_rownames(&quot;TITLE&quot;) %&gt;%
+    select(RATING, `BOX OFFICE`) %&gt;% 
+    mutate(`BOX OFFICE` = log10(`BOX OFFICE`)) %&gt;%
+    mutate_all(funs(scale)) %&gt;% 
+    dist(method = &quot;euclidean&quot;) %&gt;% 
+    hclust(method = &quot;ward.D&quot;)
+</code></pre>
+
+<p>A função abaixo é responsável por plotar várias visualizações com n grupos diferentes.</p>
+
+<pre><code class="language-r">plota_hclusts_2d = function(agrupamento,
+                            dados_filme,
+                            nome_colunas, # coluna usada para distâncias
+                            dist_method = &quot;euclidean&quot;, 
+                            linkage_method = &quot;complete&quot;, 
+                            ks = 1:9){
+    #' Retorna um ggplot das soluções de agrupamento de `dados_filme` 
+    #' para as quantidades de grupos em `ks` usando `hclust`.
+    library(ggplot2)
+    library(dplyr, warn.conflicts = F)
+    
+    atribuicoes = tibble(k = ks) %&gt;% 
+        group_by(k) %&gt;% 
+        do(cbind(filmes, 
+                 grupo = as.character(cutree(agrupamento, .$k)))) 
+    
+    atribuicoes %&gt;% 
+        ggplot(aes_string(x = nome_colunas[1], y = nome_colunas[2], colour = &quot;grupo&quot;)) + 
+        geom_jitter(width = .02, height = 0, size = 2, alpha = .6) + 
+        facet_wrap(~ paste(k, &quot; grupos&quot;)) + 
+        xlab(&quot;&quot;) +
+        ylab(&quot;Box Office (log 10)&quot;) +
+        scale_color_brewer(palette='Set2') %&gt;% 
+        return()
+}
+</code></pre>
+
+<h3 id="escolha-dos-grupos">Escolha dos grupos</h3>
+
+<p>Abaixo podemos visualizar como seria a divisão dos filmes em grupos considerando de 1 a 8 grupos distintos.</p>
+
+<pre><code class="language-r">filmes2 = filmes %&gt;% mutate(`BOX OFFICE` = log10(`BOX OFFICE`))
+
+plota_hclusts_2d(agrupamento_h_2d, 
+                 filmes2, 
+                 c(&quot;RATING&quot;, &quot;`BOX OFFICE`&quot;), 
+                 linkage_method = &quot;ward.D&quot;, ks = 1:8) + scale_y_log10()
+</code></pre>
+
+<p><img src="unnamed-chunk-7-1.png" style="display: block; margin: auto; max-width: 100%;" /></p>
+
+<p>Estamos visualizando a variável Box Office em escala de log pois não estamos interessados no valor absoluto da bilheteria em si mas na grandeza do quanto ela cresce com relação a outros filmes.</p>
+
+<p>Optamos por escolher a divisão em 4 grupos por estar em conformidade com a ideia inicial ao observarmos o gráfico de dispersão dos filmes. Mais tarde vamos explorar melhor esses 4 grupos.</p>
+
+<h3 id="silhouette">Silhouette</h3>
+
+<p>Uma visualização e métrica que usamos para escolher a divisão em 4 grupos é mostrada abaixo. Esse gráfico tem o objetivo de descrever quão parecidos são os componentes dentro de um grupo. O ideal é que todos os grupos tenham um valor de silhueta elevado.</p>
+
+<pre><code class="language-r">distancias = filmes %&gt;% 
+    column_to_rownames(&quot;TITLE&quot;) %&gt;%
+    select(RATING, `BOX OFFICE`) %&gt;%
+    mutate(`BOX OFFICE` = log10(`BOX OFFICE`)) %&gt;%
+    mutate_all(funs(scale)) %&gt;% 
+    dist(method = &quot;euclidean&quot;)
+
+colors &lt;- brewer.pal(4, 'Set2')
+plot(silhouette(cutree(agrupamento_h_2d, k = 4), distancias), col = colors, main = 'Silhouette - Divisão em 4 grupos') 
+</code></pre>
+
+<p><img src="unnamed-chunk-8-1.png" style="display: block; margin: auto; max-width: 100%;" /></p>
+
+<p>Quanto maior é a medida da silhouette maior é a homogeneidade em um grupo, ou seja, os filmes de um grupo parecem mais com filmes do próprio grupo do que de outro grupo. A divisão em 4, é o máximo que podemos obter em termos da medida da silhouette e que faça sentido.</p>
+
+<p>Outro fator importante que pode ser observado através desta visualização é o número de observações de cada grupo. Percebe-se a existência de um grupo maior com 9, dois com 4 filmes cada e um menor com 3 filmes.</p>
+
+<h2 id="grupos-de-filmes-de-christian-bale">Grupos de filmes de Christian Bale</h2>
+
+<p>Agora que já conhecemos as variáveis e já decidimos em quantos grupos os filmes de <strong>Christian Bale</strong> se dividem vamos rotular, entender e exemplicar os grupos definidos acima.</p>
+
+<pre><code class="language-r">filmes_hclust &lt;- filmes %&gt;%
+  mutate(cluster = as.factor(cutree(agrupamento_h_2d, k=4)))
+</code></pre>
+
+<pre><code class="language-r">filmes_hclust %&gt;%
+    mutate(&quot;boxoffice&quot; = `BOX OFFICE`) %&gt;%
+    hchart(&quot;scatter&quot;, hcaes(x = RATING, y = log10(`BOX OFFICE`), group = cluster)) %&gt;%
+    hc_add_theme(hc_theme_smpl()) %&gt;% 
+    hc_title(text = &quot;Rating vs Box Office&quot;, align = &quot;center&quot;) %&gt;%
+    hc_xAxis(title = list(text = &quot;Rating (tomatômetro)&quot;)) %&gt;%
+    hc_yAxis(title = list(text = &quot;Box Office (log 10)&quot;)) %&gt;%
+    hc_tooltip(pointFormat = &quot;{point.TITLE} &lt;br&gt; Rating: {point.x} &lt;br&gt; Box Office: {point.boxoffice} &lt;br&gt; Ano: {point.YEAR}&quot;)%&gt;%
+    hc_legend(title = list(text = &quot;Grupo&quot;), align = &quot;right&quot;, verticalAlign = &quot;top&quot;,
+            layout = &quot;vertical&quot;, x = 0, y = 50)
+</code></pre>
+
+<iframe width="100%" height="500px" src="bale_agrupamento_final.html" frameborder="0" allowfullscreen></iframe>
+
+<p><em>Você está visualizando o eixo y (Box office) na escala de log 10 e não na escala original. Para saber o valor na escala original basta passar o mouse sobre o ponto.</em></p>
+
+<h4 id="grupo-1-os-medianos">Grupo 1 - Os Medianos</h4>
+
+<p>Esse é o grupo dos filmes que possuem o tomatômetro próximo a 50 %, ou seja não são frescos mas também não são podres. Em geral, os filmes desse grupo não obtiveram o sucesso desejado no BOX OFFICE como o esperado por seus produtores. Por exemplo, The New World teve um orçamento de 30 milhões de dólares mas só arrecadou nos EUA 12.5 milhões.</p>
+
+<h4 id="grupo-2-os-grandes-sucessos">Grupo 2 - Os Grandes Sucessos</h4>
+
+<p>Nesse grupo estão presentes os filmes com maior bilheteria da carreira de Christian Bale, como A trilogia Batman e também os filmes mais aclamados pela crítica segundo o indíce do tomatômetro. Um filme bastante em que Bale é bastante conhecido por sua atuação brilhante é The Fighter, filme em que vive um irmão mais velho de um pugilista de boxe. Filme muito bom por sinal :).</p>
+
+<h4 id="grupo-3-os-criticados-famosos">Grupo 3 - Os Criticados famosos</h4>
+
+<p>Os integrantes desse grupo obtiveram altos índices de bilheteria mas não foram bem avaliados segundo o tomatômetro. Terminator Salvation é um exemplo disso, como é um filme da franquia <strong>Terminator</strong> (Exterminador do futuro) um grande hype havia na época, o que justifica a alta bilheteria embora o filme seja criticado até os dias de hoje, inclusive pelo próprio Arnold Schwarzenegger.</p>
+
+<h4 id="grupo-4-os-ótimos-menores">Grupo 4 - Os ótimos menores</h4>
+
+<p>Aqui estão presentes os filmes de arrecadaram relativamente pouco se comparado a outros filmes do ator, mas que obtiveram ótimos índices de aprovação no Rotten Tomatoes. Rescue Dawn, que conta a história de um piloto americano que é capturado por inimigos durante a Guerra do Vietnã é um exemplo de filme com um &ldquo;baixo&rdquo; mas que é excelente.</p>
+
+<p><strong>Essa foi a análise de hoje. Até a próxima !!!</strong></p>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="https://gileadekelvin.github.io/data-kelvin-project/defimg/perfil.png" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="https://gileadekelvin.github.io/">Gileade Kelvin</a></h4>
+                <p>Estudante de Ciência da Computação na UFCG e estagiário do Ministério Público da Paraíbva desde 2017. Trabalho com Data Science no Laboratório Analytics - UFCG.</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "https:\/\/gileadekelvin.github.io\/data-kelvin-project\/2017\/07\/filmes-bale-agrupamento\/";  
+this.page.identifier = "https:\/\/gileadekelvin.github.io\/data-kelvin-project\/2017\/07\/filmes-bale-agrupamento\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://data-kelvin-project.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(https://gileadekelvin.github.io/data-kelvin-project/defimg/blog-cover.jpg);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; Data Kelvin Project &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/">#Análise de dados</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="https://gileadekelvin.github.io/data-kelvin-project/2017/06/minha-serie-e-a-melhor/">Minha Série é a melhor!</a></li>            
+        
+          <li><a href="https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix-interativo/">Uma visão interativa sobre as Séries Originais Netflix</a></li>            
+        
+                      
+        
+          <li><a href="https://gileadekelvin.github.io/data-kelvin-project/2017/06/originais-netflix-temporadas/">Séries Originais Netflix - Melhores temporadas e mais</a></li>            
+        
+          <li><a href="https://gileadekelvin.github.io/data-kelvin-project/2017/06/series-netflix/">Análise exploratória - Séries Originais Netflix</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+        <a href="https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://gileadekelvin.github.io/data-kelvin-project/2017/06/minha-serie-e-a-melhor/">
+      <div class="post-card-image" style="background-image: url(https://gileadekelvin.github.io/data-kelvin-project/defimg/game-of-thrones.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://gileadekelvin.github.io/data-kelvin-project/2017/06/minha-serie-e-a-melhor/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #Análise de dados 
+              #R 
+              #Data science 
+              #htmlwidgets  </span>
+              
+              <h2 class="post-card-title">Minha Série é a melhor!</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>Uma forma de comparar as séries que você mais gosta e discutir sobre os melhores episódios!</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://gileadekelvin.github.io/data-kelvin-project/defimg/perfil.png" alt="Author" />
+          <span class="post-card-author"><a href="/">Gileade Kelvin</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="/data-kelvin-project/">
+      <img src="https://gileadekelvin.github.io/data-kelvin-project/defimg/logo-dkp.png" alt="Data Kelvin Project" />
+      <span>Data Kelvin Project</span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Agrupamento de filmes do Christian Bale</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Agrupamento%20de%20filmes%20do%20Christian%20Bale&amp;url=https%3a%2f%2fgileadekelvin.github.io%2fdata-kelvin-project%2f2017%2f07%2ffilmes-bale-agrupamento%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgileadekelvin.github.io%2fdata-kelvin-project%2f2017%2f07%2ffilmes-bale-agrupamento%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="/">Gileade Kelvin</a>  <br>
+      
+    </section>
+    <nav class="site-footer-nav">
+        <a href="/">Latest Posts</a>
+        <a href="https://github.com/gileadekelvin" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/gileade-kelvin" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.facebook.com/gileadekelvin" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/gileadekelvin" target="_blank" rel="noopener">Twitter</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://gileadekelvin.github.io/data-kelvin-project/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-87705780-2'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>

@@ -6,15 +6,24 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 20 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gileadekelvin.github.io/data-kelvin-project/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Agrupamento</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/agrupamento/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/agrupamento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Análise De Dados</title>
       <link>https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/</link>
-      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/</guid>
       <description></description>
@@ -23,7 +32,7 @@
     <item>
       <title>Data Science</title>
       <link>https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/</link>
-      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/</guid>
       <description></description>
@@ -32,16 +41,25 @@
     <item>
       <title>Htmlwidgets</title>
       <link>https://gileadekelvin.github.io/data-kelvin-project/tags/htmlwidgets/</link>
-      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/htmlwidgets/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Kmeans</title>
+      <link>https://gileadekelvin.github.io/data-kelvin-project/tags/kmeans/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/kmeans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>https://gileadekelvin.github.io/data-kelvin-project/tags/r/</link>
-      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gileadekelvin.github.io/data-kelvin-project/tags/r/</guid>
       <description></description>

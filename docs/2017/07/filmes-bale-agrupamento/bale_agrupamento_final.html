@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<script src="lib/htmlwidgets-1.2/htmlwidgets.js"></script>
+<script src="lib/jquery-1.11.1/jquery.min.js"></script>
+<script src="lib/proj4js-2.3.15/proj4.js"></script>
+<link href="lib/highcharts-5.0.6/css/motion.css" rel="stylesheet" />
+<script src="lib/highcharts-5.0.6/highstock.js"></script>
+<script src="lib/highcharts-5.0.6/highcharts-3d.js"></script>
+<script src="lib/highcharts-5.0.6/highcharts-more.js"></script>
+<script src="lib/highcharts-5.0.6/modules/annotations.js"></script>
+<script src="lib/highcharts-5.0.6/modules/broken-axis.js"></script>
+<script src="lib/highcharts-5.0.6/modules/data.js"></script>
+<script src="lib/highcharts-5.0.6/modules/drilldown.js"></script>
+<script src="lib/highcharts-5.0.6/modules/exporting.js"></script>
+<script src="lib/highcharts-5.0.6/modules/funnel.js"></script>
+<script src="lib/highcharts-5.0.6/modules/heatmap.js"></script>
+<script src="lib/highcharts-5.0.6/modules/map.js"></script>
+<script src="lib/highcharts-5.0.6/modules/no-data-to-display.js"></script>
+<script src="lib/highcharts-5.0.6/modules/offline-exporting.js"></script>
+<script src="lib/highcharts-5.0.6/modules/solid-gauge.js"></script>
+<script src="lib/highcharts-5.0.6/modules/treemap.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/annotations.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/draggable-legend.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/draggable-points.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/export-csv.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/grouped-categories.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/motion.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/pattern-fill-v2.js"></script>
+<script src="lib/highcharts-5.0.6/plugins/tooltip-delay.js"></script>
+<script src="lib/highcharts-5.0.6/custom/reset.js"></script>
+<script src="lib/highcharts-5.0.6/custom/symbols-extra.js"></script>
+<script src="lib/highcharts-5.0.6/custom/text-symbols.js"></script>
+<link href="lib/fontawesome-4.5.0/font-awesome.min.css" rel="stylesheet" />
+<link href="lib/htmlwdgtgrid-1/htmlwdgtgrid.css" rel="stylesheet" />
+<script src="lib/highchart-binding-0.5.0/highchart.js"></script>
+
+</head>
+<body style="background-color:white;">
+<div id="htmlwidget-1fe4e1e665f7ee954e8d" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1fe4e1e665f7ee954e8d">{"x":{"hc_opts":{"title":{"text":"Rating vs Box Office","align":"center"},"yAxis":{"title":{"text":"Box Office (log 10)"},"type":"linear"},"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":true,"marker":{"enabled":true}},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25},"scatter":{"marker":{"symbol":"circle"}}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10,"pointFormat":"{point.TITLE} <br> Rating: {point.x} <br> Box Office: {point.boxoffice} <br> Ano: {point.YEAR}"},"series":[{"name":"1","data":[{"RATING":72,"TITLE":"Hostiles","CREDIT":"Captain Joseph J. Blocker","BOX OFFICE":29.5,"YEAR":2018,"cluster":"1","boxoffice":29.5,"x":72,"y":1.46982201597816},{"RATING":68,"TITLE":"Public Enemies","CREDIT":"Melvin Purvis","BOX OFFICE":97,"YEAR":2009,"cluster":"1","boxoffice":97,"x":68,"y":1.98677173426624},{"RATING":75,"TITLE":"The Prestige","CREDIT":"Alfred Borden","BOX OFFICE":53.1,"YEAR":2006,"cluster":"1","boxoffice":53.1,"x":75,"y":1.72509452108147},{"RATING":68,"TITLE":"Shaft","CREDIT":"Walter Wade Jr.","BOX OFFICE":70.4,"YEAR":2000,"cluster":"1","boxoffice":70.4,"x":68,"y":1.84757265914211}],"type":"scatter"},{"name":"2","data":[{"RATING":49,"TITLE":"The Promise","CREDIT":"Chris Myers","BOX OFFICE":8.2,"YEAR":2017,"cluster":"2","boxoffice":8.2,"x":49,"y":0.913813852383717},{"RATING":54,"TITLE":"Out of the Furnace","CREDIT":"Rodney Baze, Jr.","BOX OFFICE":8.4,"YEAR":2013,"cluster":"2","boxoffice":8.4,"x":54,"y":0.924279286061882},{"RATING":77,"TITLE":"I'm Not There","CREDIT":"Jack Rollins/Pastor John","BOX OFFICE":4,"YEAR":2007,"cluster":"2","boxoffice":4,"x":77,"y":0.602059991327962},{"RATING":91,"TITLE":"Rescue Dawn","CREDIT":"Dieter Dengler","BOX OFFICE":5.4,"YEAR":2007,"cluster":"2","boxoffice":5.4,"x":91,"y":0.732393759822969},{"RATING":48,"TITLE":"Harsh Times","CREDIT":"Executive Producer\n                                                \n                                    \n                                            Jim Luther Davis","BOX OFFICE":3.4,"YEAR":2006,"cluster":"2","boxoffice":3.4,"x":48,"y":0.531478917042255},{"RATING":62,"TITLE":"The New World","CREDIT":"John Rolfe","BOX OFFICE":12.5,"YEAR":2005,"cluster":"2","boxoffice":12.5,"x":62,"y":1.09691001300806},{"RATING":77,"TITLE":"The Machinist","CREDIT":"Trevor Reznik","BOX OFFICE":1,"YEAR":2004,"cluster":"2","boxoffice":1,"x":77,"y":0},{"RATING":68,"TITLE":"Laurel Canyon","CREDIT":"Sam","BOX OFFICE":3.6,"YEAR":2003,"cluster":"2","boxoffice":3.6,"x":68,"y":0.556302500767287}],"type":"scatter"},{"name":"3","data":[{"RATING":93,"TITLE":"American Hustle","CREDIT":"Irving Rosenfeld","BOX OFFICE":99.2,"YEAR":2013,"cluster":"3","boxoffice":99.2,"x":93,"y":1.99651167215418},{"RATING":87,"TITLE":"The Dark Knight Rises","CREDIT":"Bruce Wayne/Batman","BOX OFFICE":448.2,"YEAR":2012,"cluster":"3","boxoffice":448.2,"x":87,"y":2.65147185219904},{"RATING":90,"TITLE":"The Fighter","CREDIT":"Dicky Eklund","BOX OFFICE":93.6,"YEAR":2010,"cluster":"3","boxoffice":93.6,"x":90,"y":1.97127584873811},{"RATING":94,"TITLE":"The Dark Knight","CREDIT":"Batman/Bruce Wayne","BOX OFFICE":533.4,"YEAR":2008,"cluster":"3","boxoffice":533.4,"x":94,"y":2.72705301135386},{"RATING":89,"TITLE":"3:10 to Yuma","CREDIT":"Dan Evans","BOX OFFICE":53.6,"YEAR":2007,"cluster":"3","boxoffice":53.6,"x":89,"y":1.72916478969277},{"RATING":84,"TITLE":"Batman Begins","CREDIT":"Bruce Wayne/Batman","BOX OFFICE":204.2,"YEAR":2005,"cluster":"3","boxoffice":204.2,"x":84,"y":2.31005573775089}],"type":"scatter"},{"name":"4","data":[{"RATING":33,"TITLE":"Terminator Salvation","CREDIT":"John Connor","BOX OFFICE":125.3,"YEAR":2009,"cluster":"4","boxoffice":125.3,"x":33,"y":2.09795107099415},{"RATING":40,"TITLE":"Reign of Fire","CREDIT":"Quinn Abercromby","BOX OFFICE":43,"YEAR":2002,"cluster":"4","boxoffice":43,"x":40,"y":1.63346845557959},{"RATING":28,"TITLE":"Captain Corelli's Mandolin","CREDIT":"Mandras","BOX OFFICE":25.3,"YEAR":2001,"cluster":"4","boxoffice":25.3,"x":28,"y":1.40312052117582}],"type":"scatter"}],"xAxis":{"type":"linear","title":{"text":"Rating (tomatômetro)"}},"legend":{"title":{"text":"Grupo"},"align":"right","verticalAlign":"top","layout":"vertical","x":0,"y":50}},"theme":{"colors":["#d35400","#2980b9","#2ecc71","#f1c40f","#2c3e50","#7f8c8d"],"chart":{"style":{"fontFamily":"Roboto"}},"title":{"align":"left","style":{"fontFamily":"Roboto Condensed","fontWeight":"bold"}},"subtitle":{"align":"left","style":{"fontFamily":"Roboto Condensed"}},"legend":{"align":"right","verticalAlign":"bottom"},"xAxis":{"gridLineWidth":1,"gridLineColor":"#F3F3F3","lineColor":"#F3F3F3","minorGridLineColor":"#F3F3F3","tickColor":"#F3F3F3","tickWidth":1},"yAxis":{"gridLineColor":"#F3F3F3","lineColor":"#F3F3F3","minorGridLineColor":"#F3F3F3","tickColor":"#F3F3F3","tickWidth":1},"plotOptions":{"line":{"marker":{"enabled":false},"states":{"hover":{"lineWidthPlus":1}}},"spline":{"marker":{"enabled":false},"states":{"hover":{"lineWidthPlus":1}}},"area":{"marker":{"enabled":false},"states":{"hover":{"lineWidthPlus":1}}},"areaspline":{"marker":{"enabled":false},"states":{"hover":{"lineWidthPlus":1}}}}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":["Roboto","Roboto+Condensed"],"debug":false},"evals":[],"jsHooks":[]}</script>
+</body>
+</html>

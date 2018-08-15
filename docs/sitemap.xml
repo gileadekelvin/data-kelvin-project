@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/2017/07/filmes-bale-agrupamento/</loc>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/2017/06/minha-serie-e-a-melhor/</loc>
     <lastmod>2017-06-20T00:00:00+00:00</lastmod>
   </url>
@@ -34,8 +39,14 @@
   </url>
   
   <url>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/agrupamento/</loc>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/an%C3%A1lise-de-dados/</loc>
-    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,37 +57,43 @@
   
   <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/data-science/</loc>
-    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/htmlwidgets/</loc>
-    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/kmeans/</loc>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/post/</loc>
-    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/r/</loc>
-    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/categories/r/</loc>
-    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gileadekelvin.github.io/data-kelvin-project/tags/</loc>
-    <lastmod>2017-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
